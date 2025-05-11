@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import AppBar from '~/components/AppBar/AppBar'
+import AppBar from '../../components/AppBAr/AppBar'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import Tab from '@mui/material/Tab'
@@ -34,8 +34,22 @@ function Settings() {
       <TabContext value={activeTab}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <TabList onChange={handleChangeTab}>
-            <Tab label="Account" value={TABS.ACCOUNT} icon={<PersonIcon />} iconPosition="start" component={Link} to="/settings/account" />
-            <Tab label="Security" value={TABS.SECURITY} icon={<SecurityIcon />} iconPosition="start" component={Link} to="/settings/security" />
+            <Tab
+              label="Account"
+              value={TABS.ACCOUNT}
+              icon={<PersonIcon />}
+              iconPosition="start"
+              component={Link}
+              to="/settings/account"
+            />
+            <Tab
+              label="Security"
+              value={TABS.SECURITY}
+              icon={<SecurityIcon />}
+              iconPosition="start"
+              component={Link}
+              to="/settings/security"
+            />
           </TabList>
         </Box>
         <TabPanel value={TABS.ACCOUNT}>
