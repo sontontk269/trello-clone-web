@@ -1,7 +1,7 @@
 //Board list
 
 import { useState, useEffect } from 'react'
-import AppBar from '~/components/AppBar/AppBar'
+import AppBar from '~/components/AppBAr/AppBar'
 import PageLoadingSpinner from '~/components/Loading/PageLoadingSpinner'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
@@ -15,7 +15,6 @@ import HomeIcon from '@mui/icons-material/Home'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
-import CardMedia from '@mui/material/CardMedia'
 import Pagination from '@mui/material/Pagination'
 import PaginationItem from '@mui/material/PaginationItem'
 import { Link, useLocation } from 'react-router-dom'
@@ -161,7 +160,11 @@ function Boards() {
                   count={Math.ceil(totalBoards / DEFAULT_ITEMS_PER_PAGE)}
                   page={page}
                   renderItem={(item) => (
-                    <PaginationItem component={Link} to={`/boards${item.page === DEFAULT_PAGE ? '' : `?page=${item.page}`}`} {...item} />
+                    <PaginationItem
+                      component={Link}
+                      to={`/boards${item.page === DEFAULT_PAGE ? '' : `?page=${item.page}`}`}
+                      {...item}
+                    />
                   )}
                 />
               </Box>
