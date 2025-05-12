@@ -1,7 +1,9 @@
 🧩 Trello Clone
+
 A Trello-inspired web application built with React, Redux, Material-UI, and Vite. It allows users to organize tasks, collaborate on projects, and manage boards efficiently.
 
 🚀 Features
+
 🔐 User Authentication: Register, login, and logout securely
 
 🗂️ Board Management: Create, update, and delete project boards
@@ -19,7 +21,9 @@ A Trello-inspired web application built with React, Redux, Material-UI, and Vite
 📱 Responsive UI: Optimized for both desktop and mobile devices
 
 🛠️ Tech Stack
+
 🔧 Frontend
+
 React — UI library
 
 Redux Toolkit — State management
@@ -35,9 +39,11 @@ Socket.IO — Real-time features
 Vite — Fast build tool
 
 🌐 Backend
+
 Node.js — RESTful API server (via integration)
 
 🚀 Deployment
+
 Vercel — Frontend hosting
 
 📁 Project Structure
@@ -47,23 +53,29 @@ Vercel — Frontend hosting
 
 
 📦 Getting Started
-Clone the repository:
+- Clone the repository:
 
 
 git clone https://github.com/your-username/trello-clone.git
+
 cd trello-clone
-Install dependencies:
+
+- Install dependencies:
 
 
 yarn install
-Start the development server:
+
+- Start the development server:
 
 
 yarn dev
-Open in browser:
+
+- Open in browser:
+
 Navigate to http://localhost:5173
 
 📌 Notes
+
 Ensure the backend server is running and properly connected to the frontend via environment variables.
 
 You can configure the .env file for your API and Socket endpoints.
