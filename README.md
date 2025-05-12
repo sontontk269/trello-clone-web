@@ -41,39 +41,25 @@ Node.js — RESTful API server (via integration)
 Vercel — Frontend hosting
 
 📁 Project Structure
-bash
-Copy
-Edit
-/src
-┣ /assets # Static assets
-┣ /apis # API calls (via Axios)
-┣ /components # Reusable UI components
-┣ /redux # Redux slices and related logic
-┣ /pages # Route-level components
-┣ /customHooks # Custom React hooks
-┣ /customLibs # Custom libraries (Dnd kit)
-┣ /utils # Utility functions/helpers
+
+![image](https://github.com/user-attachments/assets/995a38d2-557b-4dd3-8ac4-2a91ba90c13d)
+
+
 
 📦 Getting Started
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/trello-clone.git
 cd trello-clone
 Install dependencies:
 
-bash
-Copy
-Edit
-npm install
+
+yarn install
 Start the development server:
 
-bash
-Copy
-Edit
-npm run dev
+
+yarn dev
 Open in browser:
 Navigate to http://localhost:5173
 
